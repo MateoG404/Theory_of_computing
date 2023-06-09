@@ -1,0 +1,6 @@
+Implementacion de dynamic-set operation INSERT en una lista enlazada simple en tiempo O(1)
+
+LIST-INSERT(L, x)
+    x.next = L.head
+    L.head = x
+
